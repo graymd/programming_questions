@@ -5,17 +5,18 @@
 #div 5 Buzz
 #div 3 Fizz
 
-array1 = []
-x = 1
+# array1 = []
+# x = 1
 
-while x < 101
-	array1.push(x)
-	x += 1
-end
+# while x < 101
+# 	array1.push(x)
+# 	x += 1
+# end
 
-p array1
+# p array1
 
-array1.each do |num|
+# array1.each do |num|
+101.times do |num|
 	if num % 5 == 0 && num % 3 == 0
 		print "FizzBuzz"
 	elsif num % 5 == 0
